@@ -1,6 +1,6 @@
 // xify - returns the same string, but with every character replaced by an 'x' 
 
-console.log("xify: ")
+console.log('\n' + "xify: ")
 
 function xify(str) {
     let output = '';
@@ -15,7 +15,7 @@ console.log(xify('hi there'));
 
 // yellingChars - returns the given string with an exclamation point after each character 
 
-console.log("yellingChars: ")
+console.log('\n' + "yellingChars: ")
 
 function yellingChars(str) {
     let output = '';
@@ -30,7 +30,7 @@ console.log(yellingChars('hello there!'));
 
 // indexedChars - adds the index of each character before that character in the given string 
 
-console.log("indexedChars: ")
+console.log('\n' + "indexedChars: ")
 
 function indexedChars(str) {
     let output = '';
@@ -44,7 +44,7 @@ console.log(indexedChars("hello"));
 
 // numberedChars - adds the number of each character before that character in the given string 
 
-console.log("numberedChars")
+console.log('\n' + "numberedChars")
 
 function numberedChars(str) {
     let output = '';
@@ -59,7 +59,7 @@ console.log(numberedChars('hello'));
 
 // exclaim - returns the given sentence with every question mark or period changed to an exclamation point 
 
-console.log("exclaim:");
+console.log('\n' + "exclaim:");
 
 function exclaim(str) {
     let output = '';
@@ -77,7 +77,7 @@ console.log(exclaim('Hello! Anyone home? I am back.'));
 
 // repeatIt - returns the given string repeated n times, where n is the second parameter 
 
-console.log("repeatIt:");
+console.log('\n' + "repeatIt:");
 
 function repeatIt(str, n) {
     let output = '';
@@ -96,7 +96,7 @@ console.log(repeatIt('hi', 0));
 
 // truncate - shortens a long string to 15 characters plus an ellipsis (...) 
 
-console.log('truncate: ');
+console.log('\n' + 'truncate: ');
 
 function truncate(str) {
     let output = '';
@@ -112,7 +112,7 @@ console.log(truncate("Well, that's just, like, your opinion man."));
 
 // ciEmailify - creates an email from a two-part name 
 
-console.log('ciEmailify: ');
+console.log('\n' + 'ciEmailify: ');
 
 function ciEmailify(str) {
     let output = '';
@@ -125,7 +125,7 @@ console.log(ciEmailify('Anthony DeRosa'));
 
 // reverse - reverses the given string 
 
-console.log('reverse: ')
+console.log('\n' + 'reverse: ')
 
 function reverse(str) {
     let output = '';
@@ -140,7 +140,7 @@ console.log(reverse("colin"));
 
 // onlyVowels - returns only the vowels from a word 
 
-console.log('onlyVowels: ')
+console.log('\n' + 'onlyVowels: ')
 
 function onlyVowels(str) {
     let output = '';
@@ -159,7 +159,7 @@ console.log(onlyVowels('quickly'))
 
 // crazyCase - returns the given string with alternating lower and upper cases
 
-console.log('crazyCase: ')
+console.log('\n' + 'crazyCase: ')
 
 function crazyCaze(str) {
 
@@ -184,7 +184,7 @@ console.log(crazyCaze('java is the same as javascript'))
 
 // titleCase - returns a transformed version of the given string where every word starts with a capital letter and every non-word-starting letter is lowercased 
 
-console.log('titleCase: ')
+console.log('\n' + 'titleCase: ')
 
 function titleCase(str) {
 
@@ -215,7 +215,7 @@ console.log(titleCase('return of the king'));
 
 // camelCase - returns the given string in camel case 
 
-console.log('camelCase: ')
+console.log('\n' + 'camelCase: ')
 
 function camelCase(str) {
 
@@ -245,7 +245,7 @@ console.log(camelCase('return of the king'));
 
 // crazyCase2ReturnOfCrazyCase - same as crazyCase, but does NOT count spaces as letters to upper or lower case (see examples below!) 
 
-console.log('crazyCase2: ')
+console.log('\n' + 'crazyCase2: ')
 
 function crazyCaze2(str) {
 
